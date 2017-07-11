@@ -12,7 +12,6 @@ void setup()
   resetGame();
   dino = new Dino(width / 10, height / 2.4, 50);
   obs = new Obstacles(width, height / 2.4, 80, 50);
-  stroke(255);
 }
 
 void draw()
